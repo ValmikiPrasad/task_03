@@ -7,7 +7,7 @@ const TodoList=(props)=>{
     const[line,setline]=useState(false);
 
     const cutIt=()=>{
-        setline(true);
+        setline(!line);
     }
    return (
       <>
